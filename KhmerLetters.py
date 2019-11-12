@@ -4,8 +4,8 @@ import requests
 class KhmerLetters:
 
     def __init__(self):
-        self.consonant_arr = ['ក', 'គ', 'ខ', 'ឃ']
-        self.vowel_arr = ['', 'ា', 'ិ']
+        self.consonant_arr = ['ក', 'គ', 'ខ', 'ឃ', 'ង', 'ង៉', 'ច', 'ជ']
+        self.vowel_arr = ['', 'ា', 'ិ', 'ី', 'ឹ']
 
     def create_combinations(self):
         combined_arr = []
