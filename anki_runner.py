@@ -1,4 +1,5 @@
 from KhmerLetters import KhmerLetters
+from khmer_words import KhmerWords
 from AnkiRequest import AnkiRequest
 import sys
 
@@ -8,6 +9,11 @@ def create_audio():
     combination_arr = khmer_letters.create_combinations()
     khmer_letters.get_audio(combination_arr)
 
+def create_vocab_audio():
+    khmer_words = KhmerWords()
+    khmer_word_combo = khmer_words.get_words()
+    khmer_words.create_audio(khmer_word_combo)
+    
 def add_anki():
     khmer_letters = KhmerLetters()
     anki_request = AnkiRequest()
@@ -23,3 +29,5 @@ if __name__ == '__main__':
         create_audio()
     elif sys.argv[1] == 'anki':
         add_anki()
+    elif sys.argv[1] == 'vocab':
+        create_vocab_audio()
