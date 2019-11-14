@@ -9,7 +9,7 @@ class KhmerWords:
         khmer_english_pair_arr = []
         for line in file_content:
             khmer_english_pair = line.rstrip().split('/')
-            khmer_english_pair_arr.append(khmer_english_pair[0])
+            khmer_english_pair_arr.append(khmer_english_pair)
         
         print(khmer_english_pair_arr)    
         return khmer_english_pair_arr
