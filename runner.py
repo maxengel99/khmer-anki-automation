@@ -12,8 +12,8 @@ def create_letter_audio():
     khmer_letters = KhmerLetters()
     letter_combinations_arr = khmer_letters.create_combinations()
     for combination in letter_combinations_arr:
-        if not os.path.isfile('files/{}.mp3'.format(combination)):
-            create_audio(combination)
+        #if not os.path.isfile('files/{}.mp3'.format(combination)):
+        create_audio(combination)
 
 
 def create_vocab_audio():
@@ -32,9 +32,8 @@ def add_letter_anki():
 
     for combination in letter_combinations_arr:
         anki_arg = anki_request.generate_json('letter', combination)
-        print(anki_arg)
-        #response = anki_request.invoke(anki_arg)
-        #print(response)
+        response = anki_request.invoke(anki_arg)
+        print(response)
 
 
 def add_anki_vocab():
@@ -44,7 +43,7 @@ def add_anki_vocab():
     khmer_words_list = khmer_words.get_words()
 
     for word in khmer_words_list:
-        anki_arg = anki_request.generate_json_args_vocab(word[0], word[1])
+        anki_arg = anki_request.generate_json('vocabulary', word[0], word[1])
         response = anki_request.invoke(anki_arg)
         print(response)
 
@@ -58,3 +57,5 @@ if __name__ == '__main__':
         add_letter_anki()
     elif sys.argv[1] == 'vocab_anki':
         add_anki_vocab()
+    else:
+        create_audio('ក')
