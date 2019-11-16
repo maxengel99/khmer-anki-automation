@@ -2,15 +2,15 @@
 import sys
 from khmer_letters import KhmerLetters
 from khmer_words import KhmerWords
-from AnkiRequest import AnkiRequest
+from anki_request import AnkiRequest
 from helper import create_audio
 
 
 def create_letter_audio():
     """Creates letter audio files"""
     khmer_letters = KhmerLetters()
-    combination_arr = khmer_letters.create_combinations()
-    for combo in combination_arr:
+    letter_combinations_arr = khmer_letters.create_combinations()
+    for combo in letter_combinations_arr:
         create_audio(combo)
 
 
@@ -22,7 +22,8 @@ def create_vocab_audio():
         create_audio(word[0])
 
 
-def add_anki():
+def add_letter_anki():
+    """Add letters to anki"""
     khmer_letters = KhmerLetters()
     anki_request = AnkiRequest()
     combination_arr = khmer_letters.create_combinations()
@@ -31,9 +32,10 @@ def add_anki():
         anki_arg = anki_request.generate_json_args(combination)
         response = anki_request.invoke(anki_arg)
         print(response)
-
+    
 
 def add_anki_vocab():
+    """Add vocab to anki"""
     khmer_words = KhmerWords()
     anki_request = AnkiRequest()
     khmer_words_list = khmer_words.get_words()
@@ -45,11 +47,11 @@ def add_anki_vocab():
 
 
 if __name__ == '__main__':
-    if sys.argv[1] == 'audio':
-        create_audio()
-    elif sys.argv[1] == 'anki':
-        add_anki()
-    elif sys.argv[1] == 'vocab':
+    if sys.argv[1] == 'letter_audio':
+        create_letter_audio()
+    elif sys.argv[1] == 'vocab_audio':
         create_vocab_audio()
-    elif sys.argv[1] == 'anki_vocab':
+    elif sys.argv[1] == 'letter_anki':
+        add_letter_anki()
+    elif sys.argv[1] == 'vocab_anki':
         add_anki_vocab()

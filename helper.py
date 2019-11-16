@@ -10,4 +10,5 @@ def create_audio(word):
     doc = requests.get(url)
     filename = 'files/{}.mp3'.format(word)
     with open(filename, "wb") as file:
+        print('writing file {}'.format(filename))
         file.write(doc.content)
