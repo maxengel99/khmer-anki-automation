@@ -1,5 +1,6 @@
 '''Runs audio maker and anki adder'''
 import sys
+import os
 from khmer_letters import KhmerLetters
 from khmer_words import KhmerWords
 from anki_request import AnkiRequest
@@ -10,8 +11,9 @@ def create_letter_audio():
     """Creates letter audio files"""
     khmer_letters = KhmerLetters()
     letter_combinations_arr = khmer_letters.create_combinations()
-    for combo in letter_combinations_arr:
-        create_audio(combo)
+    for combination in letter_combinations_arr:
+        if not os.path.isfile('files/{}.mp3'.format(combination)):
+            create_audio(combination)
 
 
 def create_vocab_audio():
@@ -26,12 +28,13 @@ def add_letter_anki():
     """Add letters to anki"""
     khmer_letters = KhmerLetters()
     anki_request = AnkiRequest()
-    combination_arr = khmer_letters.create_combinations()
+    letter_combinations_arr = khmer_letters.create_combinations()
 
-    for combination in combination_arr:
-        anki_arg = anki_request.generate_json_args(combination)
-        response = anki_request.invoke(anki_arg)
-        print(response)
+    for combination in letter_combinations_arr:
+        anki_arg = anki_request.generate_json('letter', combination)
+        print(anki_arg)
+        #response = anki_request.invoke(anki_arg)
+        #print(response)
 
 
 def add_anki_vocab():
