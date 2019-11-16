@@ -32,7 +32,7 @@ def add_letter_anki():
         anki_arg = anki_request.generate_json_args(combination)
         response = anki_request.invoke(anki_arg)
         print(response)
-    
+
 
 def add_anki_vocab():
     """Add vocab to anki"""
