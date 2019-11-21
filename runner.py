@@ -12,8 +12,8 @@ def create_letter_audio():
     khmer_letters = KhmerLetters()
     letter_combinations_arr = khmer_letters.create_combinations()
     for combination in letter_combinations_arr:
-        #if not os.path.isfile('files/{}.mp3'.format(combination)):
-        create_audio(combination)
+        if not os.path.isfile('files/{}.mp3'.format(combination)):
+            create_audio(combination)
 
 
 def create_vocab_audio():
