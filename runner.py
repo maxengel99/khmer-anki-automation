@@ -30,10 +30,13 @@ def add_letter_anki():
     anki_request = AnkiRequest()
     letter_combinations_arr = khmer_letters.create_combinations()
 
+    index = 1
     for combination in letter_combinations_arr:
         anki_arg = anki_request.generate_json('letter', combination)
         response = anki_request.invoke(anki_arg)
         print(response)
+        print("{} / {}".format(index, len(letter_combinations_arr)))
+        index += 1
 
 
 def add_anki_vocab():
