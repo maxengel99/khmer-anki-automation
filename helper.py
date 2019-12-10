@@ -10,7 +10,7 @@ def create_audio(word):
     #'ie=UTF-8&tl=km&client=tw-ob&q={}'.format(word)
     print(url)
     doc = requests.get(url)
-    filename = 'files/{}.mp3'.format(word)
+    filename = 'files/words/{}.mp3'.format(word)
     print(filename)
     with open(filename, "wb") as file:
         print('writing file {}'.format(filename))
