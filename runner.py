@@ -11,9 +11,14 @@ def create_letter_audio():
     """Creates letter audio files"""
     khmer_letters = KhmerLetters()
     letter_combinations_arr = khmer_letters.create_combinations()
+    index = 1
     for combination in letter_combinations_arr:
-        if not os.path.isfile('files/{}.mp3'.format(combination)):
-            create_audio(combination)
+        if not os.path.isfile('files/letters/{}.mp3'.format(combination)):
+            create_audio("letters", combination)
+        else:
+            print("Skipping letter")
+        print("{} / {}".format(index, len(letter_combinations_arr)))
+        index += 1
 
 
 def create_vocab_audio():
@@ -51,6 +56,12 @@ def add_anki_vocab():
         print(response)
 
 
+def get_combinations():
+    khmer_letters = KhmerLetters()
+    letter_combinations_arr = khmer_letters.create_combinations()
+    for combo in letter_combinations_arr:
+        print(combo)
+
 if __name__ == '__main__':
     if sys.argv[1] == 'letter_audio':
         create_letter_audio()
@@ -60,5 +71,6 @@ if __name__ == '__main__':
         add_letter_anki()
     elif sys.argv[1] == 'vocab_anki':
         add_anki_vocab()
-    else:
-        create_audio('ក')
+    elif sys.argv[1] == 'combination':
+        get_combinations()
+        

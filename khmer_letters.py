@@ -7,8 +7,9 @@ class KhmerLetters:
     def __init__(self):
         self.consonant_arr = ['ក', 'គ', 'ខ', 'ឃ', 'ង', 'ង៉', 'ច', 'ជ',
                               'ឆ', 'ឈ', 'ញ', 'ញ៉', 'ដ', 'ឌ', 'ឋ', 'ឍ', 'ថ',
-                              'ធ', 'ណ', 'ន', 'ត', 'ទ']
-        self.vowel_arr = ['', 'ា', 'ិ', 'ី', 'ឹ', 'ឺ', 'ុ', 'ូ', 'ួ', 'ើ', 'ឿ']
+                              'ធ', 'ណ', 'ន', 'ត', 'ទ', 'ប', 'ប៊', 'ប៉', 'ព']
+        self.vowel_arr = ['', 'ា', 'ិ', 'ី', 'ឹ', 'ឺ', 'ុ', 'ូ', 'ួ', 'ើ', 'ឿ',
+                            'ៀ', 'េ']
 
     def create_combinations(self):
         '''Creates all combinations of consonants and vowels'''
