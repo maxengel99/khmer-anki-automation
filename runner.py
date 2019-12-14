@@ -51,7 +51,7 @@ def add_anki_vocab():
     khmer_words_list = khmer_words.get_words()
 
     for word in khmer_words_list:
-        anki_arg = anki_request.generate_json('vocabulary', word[0], word[1])
+        anki_arg = anki_request.generate_json('words', word[0], word[1])
         response = anki_request.invoke(anki_arg)
         print(response)
 

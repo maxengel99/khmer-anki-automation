@@ -10,8 +10,10 @@ class AnkiRequest:
         """Create json for anki"""
         fields = ({'Word': khmer} if category == 'letter'
                   else {'Khmer': khmer, 'English': english})
-        audio_url = ('https://raw.githubusercontent.com/maxengel99/'
-                     'khmer-letter-anki/master/files/words/{}.mp3'.format(khmer))
+        audio_url = (('https://raw.githubusercontent.com/maxengel99/'
+                     'khmer-letter-anki/master/files/letters/{}.mp3'.format(khmer)) if category == 'letter'
+                     else ('https://raw.githubusercontent.com/maxengel99/'
+                     'khmer-letter-anki/master/files/words/{}.mp3'.format(khmer)))
         audio_json = {'url': audio_url, 'filename': '{}.mp3'.format(khmer),
                       'fields': ['Audio']}
         deck_name = ('Khmer - Letters + Vowels::Khmer Letters' if category == 'letter'
