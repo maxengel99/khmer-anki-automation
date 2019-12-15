@@ -26,7 +26,11 @@ def create_vocab_audio():
     khmer_words = KhmerWords()
     khmer_word_arr = khmer_words.get_words()
     for word in khmer_word_arr:
-        create_audio(word[0])
+        if not os.path.isfile('files/words/{}.mp3'.format(word)):
+            create_audio("words", word[0])
+            print("Creating audio for - {}".format(word[1]))
+        else:
+            print("Skipping word - {}".format(word[0]))
 
 
 def add_letter_anki():

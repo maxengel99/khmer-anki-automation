@@ -1,57 +1,55 @@
-ជំរាបសួរ
-ញមរាបលា
-សូស្តី
-លាហើយ
-សូមទោស
-អរគុណ
-បាស
-ញាទ
-សំណាងល្អ
-ជួប
-ឃ្មោះ
-រីករាយ
-ប្រទេស
-ពីរ
-បី
-បួន
-ប្រាំមួយ
-ប្រាំពីរ
-ប្រាំបី
-ប្រាំបួន
-ប្រាំមួយ
-ដប់
-ម្ភៃ
-សាមសិប
-សែសិប
-ហាសិប
-ហុកសិប
-ចិតសិប
-ប៉ែតសិប
-កៅសិប
-មួយរយ
-មួយពាន់
-មួយម៉ឺន
-មួយសែន
-មួយលាន
-ក្នុំ
-អ្នក
-វា
-យើង
-ចេះ
-ដឹង
-ស្កាល់
-លេង
-ត្វើការ
-ចង់
-ចង់បាន
-តេន្នីស
-បាល់ទាត់
-កាហេ្វ
-ទឹកដោះគោ
-ទឹកសុទ្ធ
-ទឹកតែ
-ស្ករ
-បៀរ
-នំបុ័ង
-ផងមាន់
-ជាមួយ
+ជំរាបសួរ/hello (formal)
+ជំរាបលា/good-bye (formal)
+សួស្តី/hello (informal)
+លាហើយ/good-bye (informal)
+សូមទោស/sorry
+អរគុណ/thank you
+បាទ/yes (male)
+ចាស/yes (female)
+សំណាងល្អ/good luck
+ជួប/to meet
+ឈ្មោះ/to be named
+រីករាយ/happy
+ប្រទេស/country
+ពីរ/two
+បី/three
+បួន/four
+ប្រាំ/five
+ប្រាំមួយ/six
+ប្រាំពីរ/seven
+ប្រាំបី/eight
+ប្រាំបួន/nine
+ដប់/ten
+ម្ភៃ/twenty
+សាមសិប/thirty
+សែសិប/forty
+ហាសិប/fifty
+ហុកសិប/sixty
+ចិតសិប/seventy
+ប៉ែតសិប/eighty
+កៅសិប/ninety
+មួយរយ/one hundred
+មួយពាន់/one thousand
+មួយម៉ឺន/ten thousand
+មួយសែន/one hundred thousand
+មួយលាន/one million
+ចេះ/to know how (to)
+ដឹង/to know (a fact)
+ស្គាល់/to know (place/person)
+លេង/to play
+ធ្វើការ/to work
+ចង់/to want (to do)
+ចង់បាន/to want (something)
+បាល់ទាត់/soccer
+កាហ្វេ/coffee
+ទឹកដោះគោ/milk
+សុទ្ធ/pure
+ទឹក/water
+ទឹកសុទ្ធ/pure water
+ទឹកតែ/tea
+ស្ករ/sugar
+ស្រាបៀរ/beer
+នំប៉័ង/bread
+ពងមាន់/chicken egg
+ពងទា/duck egg
+ជាមួយ/with
