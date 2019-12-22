@@ -4,7 +4,7 @@
 class KhmerWords:
     '''Handles creating khmer words'''
 
-    def __init__(self, file='new-vocab.txt'):
+    def __init__(self, file='lesson6.txt'):
         self.file = file
 
     def get_words(self):

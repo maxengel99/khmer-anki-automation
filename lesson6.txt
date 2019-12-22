@@ -1,134 +1,130 @@
-ត្រសក់
-ម្ទេសផ្លោក
-ម្ទេស
-ពោតបាពំាង
-ប៉េងប៉ោះ
-ត្រាវ
-ការ៉ុត
-ផ្កាស្ពៃបៃតង
-ផ្កាស្ពៃ
-ខ្ទឹមបារាំង
-ស្ពៃតឿ
-ដំឡូងបារាំង
-ស្ពៃក្តោប
-ត្រប់វែង
-ពោត
-ឆៃថាវ
-ត្រកួន
-ត្រឡាច
-ទំពំាង
-ផ្ទី
-ផ្សិត
-ម្រះ
-ម្រះព្រៅ
-ម្អម
-ល្ពៅ
-សណ្តែក
-សណ្តែកគួរ
-សណ្តែកដី
-សណ្តែកបណ្តុះ
-សាលាដ
-ជីអដ្កាម
-ខ្ទឹមស
-ដំឡូងជ្វា
-សាច់ជ្រូក
-សាច់គោ
-សាច់មាន់
-សាច់ទា
-ត្រី
-ពងមាន់
-ពងទា
-ទិញ
-មកពី
-ញុំា
-ទៅ
-មក
-រៀន
-រស់នៅ
-ភ្ញាក់ពីគេង
-គេង
-ចូលចិត
-យល់
-ដើរ
-ធ្វើ
-មេន
-ធ្វើការ
-ហែលទឹក
-ឆ្លើយ
-និយាយ
-ស្តាប់
-មើល
-សរសេរ
-អាន
-រត់
-យំ
-ផឹក
-លេង
-ជួយ
-អោយ
-បង្រៀន
-ដាក់លើ
-យក
-រាំ
-ជិះ
-បើក
-បិទ
-ធ្វើ
-ចួប
-ស្រួល
-ពិបាក
-ថ្លៃ
-ថោក
-ល្អ
-ស្អាត
-អាក្រក់
-លឿន
-យឺត
-តូច
-ផំ
-ខ្ពស់
-ទាប
-ក្តៅ
-ត្រជាក់
-ត្រជាក់
-ដូចគ្នា
-ខុសគ្នា
-សប្បាយចិត្ត
-ពិបាកចិត្ត
-ផ្ងន់
-ស្រាល
-ម្តងទៀត
-សុំទោស
-ប្រជុំ
-វាក្យសព្ទ
-ទីកន្លែង
-ភោជនីយដ្ធាន
-សាលារៀន
-ធនាគារ
-សណ្ធាគារ
-ផ្ទះសំណាក់
-មន្ទីរពេទ្យ
-ផ្ទះ
-ព្រហវិហារ
-ការិយាល័យ
-ទីក្រុង
-ខេត្ត
-ស្រុកស្រែ
-ក្រុមហ៊ុន
-ផ្សារ
-ហាង
-អង្គការ
-រដ្ឋាភិបាល
-បន្ទប់
-បន្តប់ទឹក
-បន្ទប់គេង
-បន្ទប់ទទួលភ្ញៀវ
-បន្តប់បាយ
-វាំង
-សារមន្ទីរ
-ផ្សារទំនើប
-វ្តត
-បាត់ទន្លេ
-ភូមិ
-
-
+ត្រសក់/cucumber
+ម្ទេសផ្លោក/bell pepper
+ម្ទេស/chili pepper
+ពោតបារាំង/okra
+ប៉េងប៉ោះ/tomato
+ត្រាវ/taro
+ការ៉ុត/carrot
+ផ្កាស្ពៃបៃតង/broccoli
+ផ្កាស្ពៃ/cauliflower
+ខ្ទឹមបារាំង/onion
+ស្ពៃ​តឿ/bok choy
+ដំឡូងបារាំង/potato
+ស្ពៃក្តោប/cabbage
+ត្រប់វែង/eggplant
+ពោត/corn
+ឆៃថាវ/daikon radish
+ត្រកួន/water morning glory
+ត្រឡាច/wax gourd
+ទំពំាង/bamboo shoot
+ផ្ទី/spinach
+ផ្សិត/mushroom
+ម្រះ/bitter melon
+ម្រះព្រៅ/holy basil
+ម្អម/thyme
+ល្ពៅ/pumpkin
+សណ្តែក/beans
+សណ្តែកគួរ/long bean
+សណ្តែកដី/peanut
+សណ្តែកបណ្តុះ/bean sprout
+សាលាដ/salad
+ស្លឹកគ្រៃ/lemon grass
+ជីអង្កាម/mint
+ខ្ទឹមស/garlic
+ដំឡូងជ្វា/sweet potato
+សាច់ជ្រូក/pork
+សាច់គោ/beef
+សាច់​មាន់/chicken meat
+សាច់ទា/duck meat
+ត្រី/fish
+ពងមាន់/chicken egg
+ពងទា/duck egg
+ទិញ/to buy
+មកពី/to come from
+ញុំា/to eat
+ទៅ/to go
+មក/to come
+រៀន/to study
+រស់នៅ/to live (in)
+ភ្ញាក់ពីគេង/to wake up
+គេង/to sleep
+យល់/to understand
+ដើរ/to walk
+ធ្វើ/to do
+មាន/to have
+ធ្វើការ/to work
+ហែលទឹក/to swim
+ឆ្លើយ/to reply, to answer
+និយាយ/to speak
+ស្តាប់/to listen (to)
+មើល/to look at, to watch
+សរសេរ/to write
+អាន/to read
+រត់/to run
+យំ/to cry
+ផឹក/to drink
+លេង/to play
+ជួយ/to assist, to help
+អោយ/to give
+បង្រៀន/to teach
+ដាក់លើ/to put on top (of)
+យក/to take, to bring
+រាំ/to dance
+ជិះ/to ride (car, plane, train)
+បើក/to open, to drive (automobile)
+បិទ/to close
+ធ្វើ/to do
+ជួប/to meet
+ស្រួល/easy, simple
+ពិបាក/difficult, sad
+ថ្លៃ/expensive
+ថោក/cheap, inexpensive
+ល្អ/good, nice
+ស្អាត/clean, beautiful
+អាក្រក់/bad, wicked
+លឿន/fast
+យឺត/slow
+តូច/small, tiny
+ធំ/big, large
+ខ្ពស់/high, tall
+ទាប/short
+ក្តៅ/hot
+ត្រជាក់/cold
+ដូចគ្នា/alike, same
+ខុសគ្នា/to be different
+សប្បាយចិត្ត/happy feeling
+ពិបាកចិត្ត/worried, sad
+ធ្ងន់/heavy
+ស្រាល/light (weight)
+ម្តងទៀត/once more, again
+ប្រជុំ/to assemble, to gather
+វាក្យសព្ទ/vocabulary
+ទីតាំង/location
+ភោជនីយដ្ធាន/restaurant
+សាលារៀន/school
+ធនាគារ/bank
+សណ្ឋាគារ/hotel
+ផ្ទះសំណាក់/guesthouse
+មន្ទីរពេទ្យ/hospital
+ផ្ទះ/house
+ព្រះវិហារ/church
+ការិយាល័យ/office
+ទីក្រុង/city
+ខេត្ត/province
+ស្រុកស្រែ/countryside, rural area
+ក្រុមហ៊ុន/company
+ផ្សារ/market
+ហាង/shop
+អង្គការ/organization
+រដ្ឋាភិបាល/government
+បន្ទប់/room
+បន្ទប់ទឹក/bathroom
+បន្ទប់គេង/bedroom
+បន្ទប់ទទួលភ្ញៀវ/living room
+ផ្ទះបាយ/kitchen
+វាំង/Royal Palace
+សារមន្ទីរ/museum
+ផ្សារទំនើប/supermarket
+វត្ត/pagoda
+មាត់ទន្លេ/riverside
+ភូមិ/village
