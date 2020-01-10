@@ -40,12 +40,19 @@ def add_letter_anki():
     letter_combinations_arr = khmer_letters.create_combinations()
 
     index = 1
+    letterset = set()
+    with open("finished-letters.txt", encoding="utf8", errors='ignore') as f:
+        for line in f:
+            letterset.add(line)
+    
     for combination in letter_combinations_arr:
-        anki_arg = anki_request.generate_json('letter', combination)
-        response = anki_request.invoke(anki_arg)
-        print(response)
-        print("{} / {}".format(index, len(letter_combinations_arr)))
-        index += 1
+        if "{}.mp3".format(combination) in letterset:
+            print("test")
+        #anki_arg = anki_request.generate_json('letter', combination)
+        #response = anki_request.invoke(anki_arg)
+        #print(response)
+        #print("{} / {}".format(index, len(letter_combinations_arr)))
+        #index += 1
 
 
 def add_anki_vocab():
@@ -66,6 +73,12 @@ def get_combinations():
     for combo in letter_combinations_arr:
         print(combo)
 
+def get_finished_letters():
+    f = open("finished-letters.txt", "w+", encoding="utf8", errors='ignore')
+    for filename in os.listdir("files/letters"):
+        print(filename)
+        f.write("{}\n".format(filename))
+
 if __name__ == '__main__':
     if sys.argv[1] == 'letter_audio':
         create_letter_audio()
@@ -77,4 +90,6 @@ if __name__ == '__main__':
         add_anki_vocab()
     elif sys.argv[1] == 'combination':
         get_combinations()
+    elif sys.argv[1] == "finished":
+        get_finished_letters()
         
