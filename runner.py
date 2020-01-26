@@ -44,15 +44,17 @@ def add_letter_anki():
     with open("finished-letters.txt", encoding="utf8", errors='ignore') as f:
         for line in f:
             letterset.add(line)
-    
+
     for combination in letter_combinations_arr:
-        if "{}.mp3".format(combination) in letterset:
-            print("test")
-        #anki_arg = anki_request.generate_json('letter', combination)
-        #response = anki_request.invoke(anki_arg)
-        #print(response)
-        #print("{} / {}".format(index, len(letter_combinations_arr)))
-        #index += 1
+        if "{}.mp3\n".format(combination) in letterset:
+            print("continuing...")
+            continue
+
+        anki_arg = anki_request.generate_json('letter', combination)
+        response = anki_request.invoke(anki_arg)
+        print(response)
+        print("{} / {}".format(index, len(letter_combinations_arr) - len(letterset)))
+        index += 1
 
 
 def add_anki_vocab():

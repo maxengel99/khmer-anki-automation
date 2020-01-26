@@ -1,0 +1,73 @@
+នេះ/this
+នោះ/that
+ទីនេះ/here
+ទីនេះ/there
+ក្រៅ/outside
+លើ/on
+ក្រោម/under, below
+ទៅត្រង់/go straight
+ឆ្វេង/left
+ស្តាំ/right
+មុខ/face, front
+ក្រោយ/behind
+ទល់មុខ/opposite
+បត់/to turn
+ឆ្ងាយ/far, distant
+នៅតាមផ្លូវ/along the road
+ឡាន/car, automobile
+ឡានក្រុង/bus
+រទេះភ្លើង/train
+តុកតុក/tuk tuk
+ម៉ូតូ/motorcycle
+ឈ្នាប់/conjunction
+បើសិនជា/if
+ពីព្រោះ/because
+រួចហើយ/and the
+បន្ទាប់មក/next, then
+ដូច្នេះ/so
+រហូតដល់/until, up to
+ប្រហែលជា/maybe, perhaps
+ពេលមុន/before (in the past)
+មុនពេល/before doing something
+លើកលែងតែ/except, unless
+ជាធម្មតា/usually
+តែងតែ/always
+តែ...ប៉ុណ្ណោះ/only
+គ្រាន់តែ/just
+ជាញឹកញាប់/repeatedly, many times
+ថ្ងៃ/day, sun
+អាទិត្យ/week (1)
+សប្តាហ៍/week (2)
+ឆ្នាំ/year
+សម្រាក/to rest, to relax
+ថ្ងៃសម្រាក/holiday
+ពីរថ្ញៃ/two days
+ថ្ងៃណា/which day?
+កន្លង/past, last
+អាទិត្យនេះ/this week
+អាទិត្យមុន/last week
+អាទិត្យក្រោយ/next week
+ចុងអាទិត្យ/weekend (1)
+ចុងសប្តាហ៍/weekend (2)
+ថ្ងៃនេះ/today
+ថ្ងៃស្អែក/tomorrow
+ម្សិលមិញ/yesterday
+ម្សិលម៉្ងៃ/the day before yesterday
+ខែ/month
+ខែណា/which month?
+ដើរលេង/to go out
+ធ្វើដំណើរ/to travel, to take a trip
+ធម្មតា/ordinarily, usually
+រហូត/as far as, up to
+ដើម្បី/in order to
+ជួនកាល/sometimes
+រហូតដល់/until
+ចូល/to enter
+ចូលគេង/to go to sleep
+ថ្ងៃច័ន្ទ/Monday
+ថ្ងៃអង្គារ/Tuesday
+ថ្ងៃពុធ/Wednesday
+ថ្ងៃព្រហស្បតិ៍/Thursday
+ថ្ងៃសុក្រ/Friday
+ថ្ងៃសៅរ៍/Saturday
+ថ្ងៃអាទិត្យ/Sunday
