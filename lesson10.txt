@@ -1,0 +1,43 @@
+តា/grandfather, you
+ជីតា/grandfather
+ជីដូន/grandmother
+តាយាយ/grandparents (1)
+ជីដូនជីតា/grandparents (2)
+ឪពុក/father (formal)
+ប៉ា/father, you
+ពុក/father (casual)
+ម្តាយ/mother (formal)
+ម៉ាក់/mother, you
+ម៉ែ/mother (casual)
+ឪពុកម្តាយ/parents
+ប្រុស/man, male
+បងប្រុស/older brother
+ប្អូនប្រុស/younger brother
+ស្រី/woman, female
+បងស្រី/older sister
+ប្អូនស្រី/younger sister
+ពូ/uncle (1)
+មា/uncle (2)
+មីង/aunt
+ជីដូនមួយ/cousin
+ប្តី/husband
+ប្រពន្ធ/wife
+កូនប្រុស/son
+ចៅប្រុស/grandson
+ចៅស្រី/granddaughter
+ក្មួយស្រី/niece
+ក្មួយប្រុស/nephew
+ក្មេក/in-law (spouse)
+ម្តាយក្មេក/mother-in-law
+ឪពុកក្មេក/father-in-law
+បងថ្លៃ​ស្រី/older sister-in-law
+បងថ្លៃ​ប្រុស/older brother-in-law
+ប្អូនថ្លៃ​ស្រី/younger sister-in-law
+ប្អូនថ្លៃ​ប្រុស/younger brother-in-law
+ឪពុកចុង/stepfather
+ម្ដាយចុង/stepmother
+បងប្អូនបង្កើត/siblings
+ញាតិសន្តាន/relatives
+គ្រួសារ/family
+ស្រដៀងគ្នា​/similar to each other
+ស្រដៀង/similar
