@@ -1,0 +1,44 @@
+ពណ៌/color
+ពណ៌ក្រហម/red
+ពណ៌​ខៀវ/blue
+ពណ៌បៃតង/green
+ពណ៌លឿង/yellow
+ពណ៌ទឹកក្រូច/orange (color)
+ពណ៌ផ្កាឈូក/pink
+ពណ៌ស្វាយ/purple
+ពណ៌ខ្មៅ/black
+ពណ៌ស/white
+ពណ៌ប្រផេះ/gray
+ពណ៌សូកូឡា/brown
+ពណ៌មាស/gold (color)
+ពណ៌ប្រាក់/silver (color)
+ពណ៌ឈាមជ្រូក/maroon
+ឈាម/blood
+ពណ៌ផ្ចៃមេឃ/sky blue
+មេឃ/sky
+ពណ៌ស៉ីលៀប/teal
+ខោអាវ/clothes, clothing
+អាវ/shirt, blouse
+ខោ/pants
+ខោខ្លី/shorts
+សំពត់/skirt
+អាវយឺត/t-shirt
+ស្រោមជើង/socks
+ជើង/leg, foot
+ស្រោម/cover, case
+សារុង/sarong
+អាវរងា/sweater
+រងា/cold, freezing, frigid
+អាវភ្លៀង/raincoat
+ភ្លៀង/rain, to rain
+ខ្សែក/necklace
+ខ្សែ/string, cord
+ចិញ្ចៀន/ring
+ក្រវិល/earring
+ខ្ចី/light, unripe, to borrow
+ប្រយ័ត្ន/be careful
+ប្រាកដ​/certain, true
+បូក/to add
+ដក/to subtract
+គុណ/to multiply
+ចែក/to divide
