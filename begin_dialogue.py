@@ -32,7 +32,7 @@ def get_khmer_def_pair(vocab_file_content):
 
 
 def check_create_and_add_audio(khmer_def_pair_arr):
-    '''Instantiates github handler and creates and adds audio files to github'''
+    '''Creates and adds audio files to github'''
 
     github_handler = GithubHandler()
 
@@ -81,10 +81,10 @@ def begin():
             print("test")
             check_create_and_add_audio(khmer_def_pair_arr)
 
-        add_vocab_to_anki(khmer_def_pair_arr)
-
     elif(category.lower() == "letters"):
         print("Letters is not supported yet")
+    
+    add_vocab_to_anki(khmer_def_pair_arr)
 
     user_continue = easygui.ynbox(
         "Would you like to perform another command?", choices=("Yes", "No"))
