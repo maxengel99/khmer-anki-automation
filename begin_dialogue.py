@@ -46,13 +46,16 @@ def begin():
         print("Begin adding new vocab to Anki deck")
         for pair in khmer_english_pair_arr:
             anki_arg = anki_request.generate_json('words', pair[0], pair[1])
-            response = anki_requet.invoke(anki_arg)
+            response = anki_request.invoke(anki_arg)
             print(response)
+        
+        print("Completed adding vocab to anki")
 
     elif(category.lower() == "letters"):
-        easygui.msgbox("letters")
+        print("Letters is not supported yet")
 
     user_continue = easygui.ynbox("Would you like to perform another command?", choices=("Yes", "No"))
+
     if user_continue:
         begin()
     else:
