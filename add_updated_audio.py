@@ -1,7 +1,7 @@
 import json
 import requests
 
-vocab_file = open("test.txt", "r", encoding="utf8", errors="ignore")
+vocab_file = open("vocab_with_definition.txt", "r", encoding="utf8", errors="ignore")
 vocab_content = vocab_file.readlines()
 
 khmer_def_pair_arr = []
@@ -20,6 +20,11 @@ for word in khmer_def_pair_arr:
         filename = 'files/{}/{}.mp3'.format("words", word[1])
         with open(filename, "wb") as file:
             print('writing file {}'.format(filename))
+            file.write(doc.content)
+        
+        filename_2 = 'tmp_files/{}.mp3'.format(word[1])
+        with open(filename_2, "wb") as file:
+            print('writing file {}'.format(filename_2))
             file.write(doc.content)
     else:
         print(doc.status_code)

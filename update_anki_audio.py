@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-vocab_file = open("vocab_with_definition.txt", "r", encoding="utf8", errors="ignore")
+vocab_file = open("test.txt", "r", encoding="utf8", errors="ignore")
 vocab_content = vocab_file.readlines()
 
 khmer_def_pair_arr = []
@@ -14,17 +14,17 @@ for line in vocab_content:
 print(khmer_def_pair_arr)
 
 for word in khmer_def_pair_arr:
-    audio_url = 'https://raw.githubusercontent.com/maxengel99/khmer-anki-automation/master/files/words/{}.mp3'.format(word[1])"
-    
+    audio_url = 'https://raw.githubusercontent.com/maxengel99/khmer-anki-automation/master/files/words/{}.mp3'.format(word[1])
+    audio_json = {'url': audio_url, 'filename': '{}.mp3'.format(word[1]), 'fields': ['Audio']}
+
     body_json_update = {
         "action": "updateNoteFields",
         "version": 6,
         "params": {
             "note": {
                 "id": word[0],
-                "fields": {
-                    "Audio": audio_url
-                }
+                
+                'audio': audio_json
             }
         }
     }
