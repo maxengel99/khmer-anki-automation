@@ -1,22 +1,26 @@
-import easygui
+'''Starts the textbox conversation'''
 import os
+import easygui
 from github_handler import GithubHandler
 from helper import create_audio
 from anki_request import AnkiRequest
 
 
-
 def begin():
     '''Starts the textbox conversation'''
 
-    category = easygui.buttonbox("Would you like to upload letters or vocabulary?", choices=('Letters', 'Vocabulary'))
+    category = easygui.buttonbox(
+        "Would you like to upload letters or vocabulary?", 
+        choices=('Letters', 'Vocabulary'))
     anki_request = AnkiRequest()
 
     if(category == "Vocabulary"):
-        vocab_file_name = easygui.fileopenbox("Please upload a textfile of the new vocabulary.")
-        vocab_file_open = (open(vocab_file_name, 'r', encoding='utf8', errors='ignore'))
+        vocab_file_name = easygui.fileopenbox(
+            "Please upload a textfile of the new vocabulary.")
+        vocab_file_open = (
+            open(vocab_file_name, 'r', encoding='utf8', errors='ignore'))
         vocab_file_content = vocab_file_open.readlines()
-        
+
         print("Uploading text file")
 
         khmer_english_pair_arr = []
@@ -25,8 +29,9 @@ def begin():
             khmer_english_pair_arr.append(khmer_english_pair)
 
         print("Creating Khmer-English array")
-        
-        audio_option = easygui.ynbox("Do you need to create audio?", choices=("Yes", "No"))
+
+        audio_option = easygui.ynbox(
+            "Do you need to create audio?", choices=("Yes", "No"))
 
         if audio_option:
             github_handler = GithubHandler()
@@ -37,29 +42,31 @@ def begin():
                     print("Creating audio for - {}".format(pair[1]))
                 else:
                     print("Skipping word - {}".format(pair[1]))
-            
+
             print("Completed creating audio")
-            
+
             commit_message = easygui.enterbox()
             github_handler.add_to_github(commit_message)
-        
+
         print("Begin adding new vocab to Anki deck")
         for pair in khmer_english_pair_arr:
             anki_arg = anki_request.generate_json('words', pair[0], pair[1])
             response = anki_request.invoke(anki_arg)
             print(response)
-        
+
         print("Completed adding vocab to anki")
 
     elif(category.lower() == "letters"):
         print("Letters is not supported yet")
 
-    user_continue = easygui.ynbox("Would you like to perform another command?", choices=("Yes", "No"))
+    user_continue = easygui.ynbox(
+        "Would you like to perform another command?", choices=("Yes", "No"))
 
     if user_continue:
         begin()
     else:
         exit()
+
 
 if __name__ == '__main__':
     begin()
