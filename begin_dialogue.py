@@ -45,18 +45,22 @@ def check_create_and_add_audio(khmer_def_pair_arr):
 
         print("Completed creating audio")
 
-        commit_message = easygui.enterbox()
-        github_handler.add_to_github(commit_message)
+    commit_message = easygui.enterbox()
+    github_handler.add_to_github(commit_message)
 
 
 def add_vocab_to_anki(khmer_def_pair_arr):
     '''Adds vocab and audio to anki deck, must have anki open'''
 
     print("Begin adding new vocab to Anki deck")
-    for pair in khmer_english_pair_arr:
+
+    anki_request = AnkiRequest()
+    print(khmer_def_pair_arr)
+    for pair in khmer_def_pair_arr:
         anki_arg = anki_request.generate_json('words', pair[0], pair[1])
         response = anki_request.invoke(anki_arg)
-    print(response)
+        print(response)
+
     print("Completed adding vocab to anki")
 
 
@@ -64,10 +68,8 @@ def begin():
     '''Starts the textbox conversation'''
 
     category = easygui.buttonbox(
-        "Would you like to upload letters or vocabulary?", 
+        "Would you like to upload letters or vocabulary?",
         choices=('Letters', 'Vocabulary'))
-
-    anki_request = AnkiRequest()
 
     if(category == "Vocabulary"):
         vocab_file_content = get_text_file()

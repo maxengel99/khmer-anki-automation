@@ -1,2 +1,2 @@
-ភាសា/language
-កន្លែង/place, spot
+មូលដ្ឋាន/basic
+សំនួរ/question
