@@ -6,55 +6,82 @@ from helper import create_audio
 from anki_request import AnkiRequest
 
 
+def get_text_file():
+    '''Read in textfile from user and returns content'''
+
+    print("Uploading text file")
+
+    vocab_file_name = easygui.fileopenbox(
+            "Please upload a textfile of the new vocabulary.")
+    vocab_file_open = (
+            open(vocab_file_name, 'r', encoding='utf8', errors='ignore'))
+    return vocab_file_open.readlines()
+
+
+def get_khmer_def_pair(vocab_file_content):
+    '''Returns pair array for khmer word and English definition'''
+
+    print("Creating Khmer-English array")
+    khmer_def_pair_arr = []
+
+    for line in vocab_file_content:
+        khmer_def_pair = line.rstrip().split('/')
+        khmer_def_pair_arr.append(khmer_def_pair)
+
+    return khmer_def_pair_arr
+
+
+def check_create_and_add_audio(khmer_def_pair_arr):
+    '''Instantiates github handler and creates and adds audio files to github'''
+
+    github_handler = GithubHandler()
+
+    for pair in khmer_def_pair_arr:
+        if not os.path.isfile('files/words/{}.mp3'.format(pair[0])):
+            create_audio("words", pair[0])
+            print("Creating audio for - {}".format(pair[1]))
+        else:
+            print("Skipping word - {}".format(pair[1]))
+
+        print("Completed creating audio")
+
+        commit_message = easygui.enterbox()
+        github_handler.add_to_github(commit_message)
+
+
+def add_vocab_to_anki(khmer_def_pair_arr):
+    '''Adds vocab and audio to anki deck, must have anki open'''
+
+    print("Begin adding new vocab to Anki deck")
+    for pair in khmer_english_pair_arr:
+        anki_arg = anki_request.generate_json('words', pair[0], pair[1])
+        response = anki_request.invoke(anki_arg)
+    print(response)
+    print("Completed adding vocab to anki")
+
+
 def begin():
     '''Starts the textbox conversation'''
 
     category = easygui.buttonbox(
         "Would you like to upload letters or vocabulary?", 
         choices=('Letters', 'Vocabulary'))
+
     anki_request = AnkiRequest()
 
     if(category == "Vocabulary"):
-        vocab_file_name = easygui.fileopenbox(
-            "Please upload a textfile of the new vocabulary.")
-        vocab_file_open = (
-            open(vocab_file_name, 'r', encoding='utf8', errors='ignore'))
-        vocab_file_content = vocab_file_open.readlines()
-
-        print("Uploading text file")
-
-        khmer_english_pair_arr = []
-        for line in vocab_file_content:
-            khmer_english_pair = line.rstrip().split('/')
-            khmer_english_pair_arr.append(khmer_english_pair)
-
-        print("Creating Khmer-English array")
+        vocab_file_content = get_text_file()
+        khmer_def_pair_arr = get_khmer_def_pair(vocab_file_content)
 
         audio_option = easygui.ynbox(
             "Do you need to create audio?", choices=("Yes", "No"))
 
+        print(khmer_def_pair_arr)
         if audio_option:
-            github_handler = GithubHandler()
+            print("test")
+            check_create_and_add_audio(khmer_def_pair_arr)
 
-            for pair in khmer_english_pair_arr:
-                if not os.path.isfile('files/words/{}.mp3'.format(pair[0])):
-                    create_audio("words", pair[0])
-                    print("Creating audio for - {}".format(pair[1]))
-                else:
-                    print("Skipping word - {}".format(pair[1]))
-
-            print("Completed creating audio")
-
-            commit_message = easygui.enterbox()
-            github_handler.add_to_github(commit_message)
-
-        print("Begin adding new vocab to Anki deck")
-        for pair in khmer_english_pair_arr:
-            anki_arg = anki_request.generate_json('words', pair[0], pair[1])
-            response = anki_request.invoke(anki_arg)
-            print(response)
-
-        print("Completed adding vocab to anki")
+        add_vocab_to_anki(khmer_def_pair_arr)
 
     elif(category.lower() == "letters"):
         print("Letters is not supported yet")
