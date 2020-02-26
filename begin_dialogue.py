@@ -81,11 +81,10 @@ def begin():
             print("test")
             check_create_and_add_audio(khmer_def_pair_arr)
 
+        add_vocab_to_anki(khmer_def_pair_arr)
+
     elif(category.lower() == "letters"):
         print("Letters is not supported yet")
-    
-    add_vocab_to_anki(khmer_def_pair_arr)
-
     user_continue = easygui.ynbox(
         "Would you like to perform another command?", choices=("Yes", "No"))
 
