@@ -1,0 +1,343 @@
+1573735446802/នឹក/to​ ​miss
+1573735449455/ផឹក/to​ ​drink​, to ​swallow​ ​a​ ​liquid
+1573735452456/ជិត/to​ ​be​ ​close​, ​near​, ​almost
+1573735455677/គិត/​to​ ​think​, ​to​ ​intend​ ​to
+1573735458301/ជា/​to​ ​be
+1573735460582/ក/neck
+1573735593973/ចឹក​/to peck, ​to​ ​nibble​, ​to​ ​bite​ (​snake​, ​lizard​)
+1573735596623/រំលឹក/​to​ ​remind​, ​to​ ​recall
+1574300493153/ចូលចិត្ត/​to​ ​like​ (​something​)
+1574300495762/ផ្សិត/mushroom, fungus
+1574300498245/មិត្ត/friend
+1574300500782/ព្រឹក/morning
+1574300503281/ឪឡឹក/watermelon
+1574300549484/ពិត​/to be true
+1574300552046/ហិត/to smell
+1574300554510/សិត/to comb
+1574300557011/ដឹក/to transport
+1574300559513/ញឹក/often, frequently
+1574300561985/ឆា/to stir-fry
+1574300564482/ញី/female (non-human)
+1574300566986/គឺ/be, is
+1574300569485/ការងារ/job
+1574300572046/ជី/fertilizer
+1574300574637/កី/loom
+1575186155643/កុក/egret
+1575186158423/ចុក/to ache
+1575186160952/បុក/to collide with, to crush
+1575186166049/គុក/jail
+1575186168797/ទុក/to put, to arrange
+1575186172359/ពុក/father (address form)
+1575186175924/ធុញ/to be bored
+1575186179488/ថ្មី/new
+1575186181985/កូរ/to stir, mix
+1575186184515/ជូរ/sour, bitter
+1575186187016/គូ/pair
+1575186189233/គូរ/to draw
+1575186191766/ដូរ/to exchange, barter
+1575186194326/គួរ/should
+1575186196830/ជួរ/line, column
+1575937148142/ដូចជា/just like, such as
+1575937150777/ខ្ញុំ/I
+1575937155879/ថា/to say, tell, pronounce
+1575937163109/សម្រាប់/used for, used to
+1575937168141/មាន/to have, there is
+1575937170720/ជាមួយនឹង/together, along with
+1575937175811/នៅ/to be at
+1575937178419/មួយ/one
+1575937180940/នេះ/this
+1575937183482/ពី/from
+1575937185980/ដោយ/by, in accordance (with)
+1575937188490/ក្តៅ/hot
+1575937191017/ពាក្យ/word
+1575937193528/ប៉ុន្តែការ/but, however
+1575937196111/អ្វី/what
+1575937201408/វា/it
+1575937203968/អ្នក/person, you
+1575937207264/ឬ/or
+1575937209854/នៃ/of
+1575937212436/និង/and
+1575937217518/យើង/we, us
+1575937220053/អាច/to be able
+1575937222576/ចេញ/to leave
+1575937225117/ផ្សេងទៀត/other
+1575937230175/ដែល/who, whom, which
+1575987224323/ដី/Earth, land
+1576413205063/ជំរាបសួរ/hello (formal)
+1576413250485/ជំរាបលា/goodbye (formal)
+1576413253050/សួស្តី/hello (casual)
+1576413255576/លាហើយ/goodbye (casual)
+1576413258046/សូមទោស/sorry
+1576413260514/អរគុណ/thank you
+1576413263486/បាទ/yes (male)
+1576413265987/ចាស/yes (female)
+1576413268488/សំណាងល្អ/good luck
+1576413271068/ជួប/to meet
+1576413273579/ឈ្មោះ/to be named, called
+1576413276085/រីករាយ/to be happy
+1576413278613/ប្រទេស/country, nation
+1576413338303/ចេះ/to know (how to do something)
+1576413340771/ដឹង/to know (a fact)
+1576413343328/ស្គាល់/to know (someone, place)
+1576413346021/លេង/to play
+1576413348608/ធ្វើការ/to work
+1576413351388/ចង់/to want (to do something)
+1576413354022/ចង់បាន/to want (something)
+1576413356522/បាល់ទាត់/soccer
+1576413359051/កាហ្វេ/coffee
+1576413361612/ទឹកដោះគោ/cow's milk
+1576413364142/សុទ្ធ/pure, clean
+1576413366675/ទឹក/water
+1576413371862/ទឹកតែ/tea
+1576413374361/ស្ករ/sugar
+1576413382022/ពងមាន់/chicken egg
+1576413385327/ពងទា/duck egg
+1576413388051/ជាមួយ/with, along with
+1576997591817/ត្រសក់/cucumber
+1576997594595/ម្ទេសផ្លោក/bell pepper
+1576997597068/ម្ទេស/chili pepper
+1576997602094/ប៉េងប៉ោះ/tomato
+1576997604594/ត្រាវ/taro
+1576997607063/ការ៉ុត/carrot
+1576997609782/ផ្កាស្ពៃបៃតង/broccoli
+1576997614971/ខ្ទឹមបារាំង/onion
+1576997620065/ដំឡូងបារាំង/white potato
+1576997622566/ស្ពៃក្តោប/cabbage
+1576997627632/ពោត/corn
+1576997635218/ត្រឡាច/wax gourd
+1576997645971/ម្រះ/bitter melon
+1576997648504/ម្រះព្រៅ/basil
+1576997654192/ល្ពៅ/pumpkin
+1576997661782/សណ្តែកដី/peanut
+1576997664502/សណ្តែកបណ្តុះ/bean sprout
+1576997668127/សាលាដ/lettuce, salad
+1576997671379/ស្លឹកគ្រៃ/lemon grass
+1576997676442/ខ្ទឹមស/garlic
+1576997678970/ដំឡូងជ្វា/sweet potato
+1576997681532/សាច់ជ្រូក/pork
+1576997684067/សាច់គោ/beef
+1576997691695/ត្រី/fish
+1576997698317/ទិញ/to buy
+1576997706377/ទៅ/to go, to
+1576997708906/មក/to come
+1576997712129/រៀន/to learn, study
+1576997714627/រស់នៅ/to live (at)
+1576997719628/គេង/to sleep
+1576997722158/យល់/to understand
+1576997724694/ដើរ/to walk
+1576997727254/ធ្វើ/to do
+1576997733842/ហែលទឹក/to swim
+1576997736407/ឆ្លើយ/to answer, reply
+1576997738876/និយាយ/to speak, say
+1576997741376/ស្តាប់/to listen (to)
+1576997743879/មើល/to look at, watch
+1576997746374/សរសេរ/to write
+1576997748874/អាន/to read (aloud)
+1576997751406/រត់/to run
+1576997753908/យំ/to cry
+1576997760503/ជួយ/to help, assist
+1576997765566/បង្រៀន/to teach, instruct
+1576997768129/ដាក់លើ/to put on top (of)
+1576997771470/យក/to take, to bring
+1576997774002/រាំ/to dance
+1576997776779/ជិះ/to ride
+1576997779315/បើក/to drive, open, turn on
+1576997781879/បិទ/to close, cover, turn off
+1576997788444/ស្រួល/easy
+1576997790943/ពិបាក/difficult
+1576997793469/ថ្លៃ/expensive, cost
+1576997796030/ថោក/cheap
+1576997798531/ល្អ/good, well
+1576997801004/ស្អាត/clean, nice, beautiful
+1576997803505/អាក្រក់/bad, wicked
+1576997806032/លឿន/fast
+1576997808568/យឺត/slow, late
+1576997811094/តូច/small
+1576997813595/ធំ/large
+1576997816094/ខ្ពស់/tall
+1576997818593/ទាប/short
+1576997823093/ត្រជាក់/cold
+1576997825627/ដូចគ្នា​​​​​​​/alike, same
+1576997828128/ខុសគ្នា/different
+1576997830694/សប្បាយចិត្ត/content, happy feeling
+1576997833191/ពិបាកចិត្ត/to suffer
+1576997835755/ធ្ងន់/heavy
+1576997838282/ស្រាល/light (weight)
+1576997840781/ម្តងទៀត/once more, again
+1576997843320/ប្រជុំ/meeting, gathering
+1576997845880/វាក្យសព្ទ/vocabulary
+1576997848381/ទីតាំង/position
+1576997853380/សាលារៀន/school
+1576997855907/ធនាគារ/bank
+1576997858379/សណ្ឋាគារ/guesthouse
+1576997860943/ផ្ទះសំណាក់/hotel, inn
+1576997863504/មន្ទីរពេទ្យ/hospital
+1576997866032/ផ្ទះ/house
+1576997868568/ព្រះវិហារ/temple
+1576997871069/ការិយាល័យ/office
+1576997873561/ទីក្រុង/city
+1576997876033/ខេត្ត/province
+1576997878655/ស្រុកស្រែ/countryside, rural area
+1576997881192/ក្រុមហ៊ុន/company
+1576997883693/ផ្សារ/market
+1576997886220/ហាង/shop, store
+1576997888755/អង្គការ/organization
+1576997891283/រដ្ឋាភិបាល/government
+1576997893894/បន្ទប់/room
+1576997896645/បន្ទប់ទឹក/bathroom
+1576997899143/បន្ទប់គេង/bedroom
+1576997901610/បន្ទប់ទទួលភ្ញៀវ/living room
+1576997904111/ផ្ទះបាយ/kitchen
+1576997906646/វាំង/Royal Palace
+1576997909858/សារមន្ទីរ/museum
+1576997914858/វត្ត/pagoda
+1576997917393/មាត់ទន្លេ/bank of a river
+1576997919893/ភូមិ/village
+1580015415740/នោះ/that, those
+1580015418736/ទីនេះ/here
+1580015423331/ក្រៅ/outside
+1580015426021/លើ/on, above
+1580015428613/ក្រោម/below, under
+1580015431239/ទៅត្រង់/to go straight
+1580015433950/ឆ្វេង/left
+1580015436550/ស្តាំ/right
+1580015439391/មុខ/face, front
+1580015441951/ក្រោយ/next, behind, after
+1580015444483/ទល់មុខ/opposite, face to face
+1580015447016/បត់/to turn
+1580015449614/ឆ្ងាយ/far, distant
+1580015452170/នៅតាមផ្លូវ/along the road
+1580015454735/ឡាន/automobile, car
+1580015466175/ម៉ូតូ/motorbike
+1580015468740/ឈ្នាប់/conjunction
+1580015474077/ពីព្រោះ/because, since
+1580015479765/បន្ទាប់មក/afterwards, later
+1580015482425/ដូច្នេះ/so, thus
+1580015484987/រហូតដល់/up to, until
+1580015487639/ប្រហែលជា/approximately
+1580015490771/ពេលមុន/last time
+1580015496049/លើកលែងតែ/besides, except
+1580015501235/តែងតែ/ordinarily, usually
+1580015506395/គ្រាន់តែ/only, merely
+1580015509018/ជាញឹកញាប់/repeatedly, frequently
+1580015512733/ថ្ងៃ/day, sun
+1580015516209/អាទិត្យ/week
+1580015522426/ឆ្នាំ/year
+1580015524957/សម្រាក/to relax
+1580015541704/អាទិត្យមុន/last week
+1580015544263/អាទិត្យក្រោយ/next week
+1580015547613/ចុងអាទិត្យ/weekend
+1580015552702/ថ្ងៃនេះ/today
+1580015555265/ថ្ងៃស្អែក/tomorrow
+1580015557831/ម្សិលមិញ/yesterday
+1580015562922/ខែ/month, moon
+1580015568109/ដើរលេង/to go out
+1580015570737/ធ្វើដំណើរ/to travel
+1580015575834/រហូត/until, up to
+1580015578457/ដើម្បី/in order to
+1580015580982/ជួនកាល/sometimes
+1580015585518/ចូល/to enter
+1580015588139/ចូលគេង/to go to bed
+1580431513561/ចំណី/(animal) feed
+1580431516157/ដំបូង/at first
+1580431518748/ស៊ី/to eat (for an animal)
+1580431521287/យាយ/grandmother
+1580431523846/ជីដូនមួយ/cousin
+1580431526347/ធាត់/fat, plump
+1580431528905/ជនជាតិ/nationality, citizen
+1580431531467/ខ្ជិល/lazy
+1580431534217/យ៉ាប់/bad, troublesome, naughty
+1580660687160/ឃ្លានបាយ/to be hungry
+1580660697813/ទាំងពីរ/both
+1580660700314/បង្ហាញ/to show, demonstrate
+1580660705877/យ៉ាងម៉េច/how
+1580660708501/តម្លៃ/price, value
+1580660711035/ដែរ/also, too, makes gentler
+1580660716346/ពេក/too, too much
+1580660719036/បញ្ជី/list, chart
+1580660721718/បញ្ជីមុខម្ហូប/menu
+1580660725065/ហឹរ/hot, spicy
+1580660730189/បរទេស/foreign
+1580660732752/ជនបរទេស/foreigner
+1580660744847/ឆ្ងាញ់/tasty, delicious
+1580660747412/បង្អែម/dessert, sweets
+1580660760784/មិនទាន់ទេ/not yet
+1580660763365/ពិសេស/special
+1580660768536/ហៅ/to call, to order
+1580660773656/ណែនាំ/to advise, guide
+1580660783847/បួស/to become a monk, be ordained
+1580660788911/អាំង/to grill
+1580660796688/កែវ​/glass (drink)
+1580687674864/រួច/already, to finish
+1580688198359/មុន/previously, before
+1580773996854/រក/to look for, search for
+1580775469120/ខោ/pants
+1580775471739/កោរ/to shave
+1580775474237/តោ/lion
+1580775476802/គោ/cow, ox
+1580775479363/ជោរ/overripe, full, to go beyond
+1580775484892/ឃើញ/to see, perceive
+1580776027797/មែន/real, accurate, true
+1580825394564/ប្រុស/man, male
+1580825402540/ស្រី/woman, female
+1580825413192/មា/uncle (younger brother)
+1580825439242/ក្មេក/parent-in-law
+1580825471449/ស្រដៀងគ្នា​/similar to each other
+1580825474056/ស្រដៀង/similar
+1580946079910/បង្កើត/related by blood, to give birth (to)
+1581034362292/ដល់/to arrive (at), to reach
+1581498003725/ពណ៌/color
+1581498049216/មេឃ/sky
+1581498054497/ខោអាវ/clothes
+1581498057155/អាវ/shirt, blouse
+1581498062370/ខោខ្លី/shorts
+1581498076092/ស្រោម/cover, condom
+1581498081653/អាវរងា/sweater, coat
+1581498084314/រងា/chilly
+1581498086964/អាវភ្លៀង/raincoat
+1581498089688/ភ្លៀង/rain
+1581498093028/ខ្សែក/necklace
+1581498096187/ខ្សែ/string, cord, rope
+1581498105565/ខ្ចី/light (color), to borrow, unripe
+1581498108188/ប្រយ័ត្ន/be careful
+1581498113905/បូក/to add, mix together
+1581498116593/ដក/to subtract, extract
+1581498119188/គុណ/to multiply, increase
+1581498121814/ចែក/to divide, distribute
+1582159039971/ទំហំ/size, dimenstion
+1582159045088/ចុងក្រោយ/the last
+1582159047650/ចុង/end, tip
+1582159052774/ទើប​​​​​​/only then, consequently
+1582159055620/មកដល់/to arrive at, come to
+1582159058180/ល/to attempt, try
+1582159060775/ចុះថ្លៃ/to give a discount
+1582159063432/ចុះ/to descend
+1582159068872/អប់/to be fragrant, to perfume, scent
+1582159074056/គុណភាព​/quality, value
+1582159079118/ក្លិន/smell, odor
+1582159081682/ផ្អែម/sweet, pleasant
+1582159084182/មួក/hat, cap
+1582159089684/សុវត្ថិ/prosperity, well-being
+1582159092214/សុវត្ថិភាព/goodness, success, safety
+1582159094777/ស្បែកជើង/shoes, footwear
+1582159097369/ស្បែក/skin, leather
+1582159102617/កាបូប/wallet, bag
+1582159107776/រលុង/too big (clothing)
+1582159112871/កីឡា/sports
+1582159122121/ងូតទឹក/to bathe, take a shower
+1582159124681/ងូត/light rain
+1582159145305/នាឡិកា/clock
+1582159157213/ស៊ក/to insert
+1582159159714/រហែក/torn, ripped
+1582159170057/ឡេវ/button
+1582159177806/ប្រើ/to use
+1582159180307/ផ្ទាល់ខ្លួន/private, personal
+1582159183024/ផ្ទាល់/individual
+1582159185555/ខ្លួន/oneself, soul
+1582159188089/សន្ទនា/conversation
+1582159190586/ប្រភេទ/category, kind
+1582712973905/ចុងភៅ/chef
+1582712976524/ទាំងអស់/all
+1582717701929/ភាសា/language
+1582717704590/កន្លែង/place, location
+1582718031190/សំនួរ/question
