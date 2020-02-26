@@ -1,12 +1,9 @@
 import easygui
-from git import Repo
 from helper import create_audio
 
-PATH_OF_GIT_REPO = r'.git'  # make sure .git folder is properly configured
 
-def git_push():
 def begin():
-    
+        
     category = easygui.buttonbox("Would you like to upload letters or vocabulary?", choices=('Letters', 'Vocabulary'))
     
     if(category.lower() == "vocabulary"):
