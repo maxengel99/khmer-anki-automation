@@ -13,11 +13,15 @@ def begin():
         vocab_file_name = easygui.fileopenbox("Please upload a textfile of the new vocabulary.")
         vocab_file_open = (open(vocab_file_name, 'r', encoding='utf8', errors='ignore'))
         vocab_file_content = vocab_file_open.readlines()
+        
+        print("Uploading text file")
 
         khmer_english_pair_arr = []
         for line in vocab_file_content:
             khmer_english_pair = line.rstrip().split('/')
             khmer_english_pair_arr.append(khmer_english_pair)
+
+        print("Creating Khmer-English array")
         
         audio_option = easygui.ynbox("Do you need to create audio?", choices=("Yes", "No"))
 
@@ -31,9 +35,11 @@ def begin():
                 else:
                     print("Skipping word - {}".format(pair[1]))
             
+            print("Completed creating audio")
+            
             commit_message = easygui.enterbox()
             github_handler.add_to_github(commit_message)
-             
+
     elif(category.lower() == "letters"):
         easygui.msgbox("letters")
 
