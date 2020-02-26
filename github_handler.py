@@ -30,3 +30,4 @@ class GithubHandler:
 
         origin = repo.remote(name="origin")
         origin.push()
+        

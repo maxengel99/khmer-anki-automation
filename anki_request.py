@@ -17,7 +17,7 @@ class AnkiRequest:
         audio_json = {'url': audio_url, 'filename': '{}.mp3'.format(khmer),
                       'fields': ['Audio']}
         deck_name = ('Khmer - Letters + Vowels::Khmer Letters' if category == 'letter'
-                     else 'Khmer - Vocabulary::Khmer Vocabulary - Khmer')
+                     else 'Khmer Vocabulary - Khmer')
         model_name = ('Basic - Word/Audio' if category == 'letter'
                       else 'Khmer Vocabulary')
         json_args = {'deckName': deck_name, 'modelName': model_name,

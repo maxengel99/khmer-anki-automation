@@ -2,12 +2,15 @@ import easygui
 import os
 from github_handler import GithubHandler
 from helper import create_audio
+from anki_request import AnkiRequest
+
 
 
 def begin():
     '''Starts the textbox conversation'''
 
     category = easygui.buttonbox("Would you like to upload letters or vocabulary?", choices=('Letters', 'Vocabulary'))
+    anki_request = AnkiRequest()
 
     if(category == "Vocabulary"):
         vocab_file_name = easygui.fileopenbox("Please upload a textfile of the new vocabulary.")
@@ -39,6 +42,12 @@ def begin():
             
             commit_message = easygui.enterbox()
             github_handler.add_to_github(commit_message)
+        
+        print("Begin adding new vocab to Anki deck")
+        for pair in khmer_english_pair_arr:
+            anki_arg = anki_request.generate_json('words', pair[0], pair[1])
+            response = anki_requet.invoke(anki_arg)
+            print(response)
 
     elif(category.lower() == "letters"):
         easygui.msgbox("letters")
