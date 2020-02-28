@@ -4,11 +4,25 @@ import json
 
 
 def create_audio(category, word):
-    '''creates the audio file'''
-    url="https://translate.google.com/translate_tts?ie=UTF-8&tl=km&client=tw-ob&q=" + word
 
-    #url = 'https://translate.google.com/translate_tts?'
-    #'ie=UTF-8&tl=km&client=tw-ob&q={}'.format(word)
+    first_url = "https://kheng.info/static/dictionary/audio/" + word + ".mp3"
+    doc = requests.get(first_url)
+
+    if doc.status_code == 200:
+        filename = 'files/{}/{}.mp3'.format("words", word[1])
+        with open(filename, "wb") as file:
+            print('writing file {}'.format(filename))
+            file.write(doc.content)
+
+        return
+
+    print("First audio link doesn't have the file")
+
+    '''creates the audio file'''
+    url = "https://translate.google.com/translate_tts?ie=UTF-8&tl=km&client=tw-ob&q=" + word
+
+    # url = 'https://translate.google.com/translate_tts?'
+    # 'ie=UTF-8&tl=km&client=tw-ob&q={}'.format(word)
     print(url)
     doc = requests.get(url)
     filename = 'files/{}/{}.mp3'.format(category, word)
