@@ -9,7 +9,7 @@ def create_audio(category, word):
     doc = requests.get(first_url)
 
     if doc.status_code == 200:
-        filename = 'files/{}/{}.mp3'.format("words", word[1])
+        filename = 'files/{}/{}.mp3'.format("words", word)
         with open(filename, "wb") as file:
             print('writing file {}'.format(filename))
             file.write(doc.content)
