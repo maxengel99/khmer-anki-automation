@@ -15,6 +15,7 @@ def get_text_file():
             "Please upload a textfile of the new vocabulary.")
     vocab_file_open = (
             open(vocab_file_name, 'r', encoding='utf8', errors='ignore'))
+
     return vocab_file_open.readlines()
 
 
@@ -55,7 +56,6 @@ def add_vocab_to_anki(khmer_def_pair_arr):
     print("Begin adding new vocab to Anki deck")
 
     anki_request = AnkiRequest()
-    print(khmer_def_pair_arr)
     for pair in khmer_def_pair_arr:
         anki_arg = anki_request.generate_json('words', pair[0], pair[1])
         response = anki_request.invoke(anki_arg)
@@ -74,7 +74,7 @@ def begin():
     if(category == "Vocabulary"):
         vocab_file_content = get_text_file()
         khmer_def_pair_arr = get_khmer_def_pair(vocab_file_content)
-
+        print(khmer_def_pair_arr)
         audio_option = easygui.ynbox(
             "Do you need to create audio?", choices=("Yes", "No"))
 
