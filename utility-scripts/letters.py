@@ -1,3 +1,6 @@
+import json
+import requests
+
 consonant_arr = ['ក', 'គ', 'ខ', 'ឃ', 'ង', 'ង៉', 'ច', 'ជ', 'ឆ', 'ឈ', 'ញ', 'ញ៉',
                  'ដ', 'ឌ', 'ឋ', 'ឍ', 'ថ', 'ធ', 'ណ', 'ន', 'ត', 'ទ', 'ប', 'ប៊',
                  'ប៉', 'ព', 'ផ', 'ភ', 'ម៉', 'ម', 'យ៉', 'យ', 'រ៉', 'រ', 'ឡ',
@@ -13,7 +16,7 @@ def create_audio():
             combined_arr.append(consonant + vowel)
 
     for combo in combined_arr:
-        url = "https://translate.google.com/translate_tts?ie=UTF-8&tl=km&client=tw-ob&q=" + word
+        url = "https://translate.google.com/translate_tts?ie=UTF-8&tl=km&client=tw-ob&q=" + combo
         doc = requests.get(url)
         filename = 'files/letters/{}.mp3'.format(combo)
         with open(filename, "wb") as file:
