@@ -13,7 +13,8 @@ class KhmerLetters:
                               'អ', 'អ៊']
         self.vowel_arr = ['', 'ា', 'ិ', 'ី', 'ឹ', 'ឺ', 'ុ', 'ូ', 'ួ', 'ើ', 'ឿ',
                             'ៀ', 'េ', 'ែ', 'ៃ', 'ោ', 'ៅ', 'ុំ', 'ំ',
-                            'ាំ', 'ះ', 'ុះ', 'េះ']
+                            'ាំ', 'ះ', 'ុះ', 'េះ', 'ោះ', 'ិះ', 'ឹះ']
+        self.new_vowels_arr = ['ោះ', 'ិះ', 'ឹះ']
 
     def create_combinations(self):
         '''Creates all combinations of consonants and vowels'''
