@@ -1,5 +1,6 @@
 import json
 import requests
+import urllib.request
 
 consonant_arr = ['ក', 'គ', 'ខ', 'ឃ', 'ង', 'ង៉', 'ច', 'ជ', 'ឆ', 'ឈ', 'ញ', 'ញ៉',
                  'ដ', 'ឌ', 'ឋ', 'ឍ', 'ថ', 'ធ', 'ណ', 'ន', 'ត', 'ទ', 'ប', 'ប៊',
@@ -27,8 +28,8 @@ def create_audio():
 def add_to_anki():
     combined_arr = []
 
-    for consonant in kl.consonant_arr:
-        for vowel in kl.new_vowels_arr:
+    for consonant in consonant_arr:
+        for vowel in new_vowels_arr:
             combined_arr.append(consonant + vowel)
 
     for combo in combined_arr:
@@ -46,9 +47,9 @@ def add_to_anki():
         final_json = {'action': 'addNote', 'params': {'note': json_args}, 'version': 6}
         """Makes request to add anki card"""
         response = json.load(urllib.request.urlopen(
-            'http://localhost:8765', json.dumps(params).encode('utf-8')))
+            'http://localhost:8765', json.dumps(final_json).encode('utf-8')))
         print(response)
 
 
 if __name__ == '__main__':
-    create_audio()
+    add_to_anki()
