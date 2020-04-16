@@ -4,6 +4,7 @@ import easygui
 from github_handler import GithubHandler
 from helper import create_audio
 from anki_request import AnkiRequest
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 def get_text_file():
@@ -12,9 +13,9 @@ def get_text_file():
     print("Uploading text file")
 
     vocab_file_name = easygui.fileopenbox(
-            "Please upload a textfile of the new vocabulary.")
+        "Please upload a textfile of the new vocabulary.")
     vocab_file_open = (
-            open(vocab_file_name, 'r', encoding='utf8', errors='ignore'))
+        open(vocab_file_name, 'r', encoding='utf8', errors='ignore'))
 
     return vocab_file_open.readlines()
 
@@ -36,15 +37,19 @@ def check_create_and_add_audio(khmer_def_pair_arr):
     '''Creates and adds audio files to github'''
 
     github_handler = GithubHandler()
+    processes = []
 
-    for pair in khmer_def_pair_arr:
-        if not os.path.isfile('files/words/{}.mp3'.format(pair[0])):
-            create_audio("words", pair[0])
-            print("Creating audio for - {}".format(pair[1]))
-        else:
-            print("Skipping word - {}".format(pair[1]))
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        for pair in khmer_def_pair_arr:
+            if not os.path.isfile('files/words/{}.mp3'.format(pair[0])):
+                processes.append(executor.submit(
+                    create_audio, "words", pair[0]))
+                print("Adding audio creation process for - {}".format(pair[1]))
+            else:
+                print("Skipping word - {}".format(pair[1]))
 
-        print("Completed creating audio")
+    for task in as_completed(processes):
+        print(task.result())
 
     commit_message = easygui.enterbox()
     github_handler.add_to_github(commit_message)

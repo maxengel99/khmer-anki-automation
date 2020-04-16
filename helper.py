@@ -30,6 +30,9 @@ def create_audio(category, word):
     with open(filename, "wb") as file:
         print('writing file {}'.format(filename))
         file.write(doc.content)
+        print("File writing completed for " + word)
+
+    return "completed"
 
 
 def create_audio_two(text):
